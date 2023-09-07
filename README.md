@@ -2,15 +2,13 @@
 <h4>Hosted Link: https://kaverichougule.github.io/LeetCode_Clone/</h4>
 <h4>Repository Link: https://github.com/kaverichougule/LeetCode_Clone</h4>
 Group Members and the task assigned: <br>
-<h4>Home Page: Nipun Madan</h4> <br>
-<h4>Explore Page: Aaqib Bashir Mir</h4> <br>
-<h4>Problems Page: Kaveri Chougule and Shazil</h4> <br>
-<h4>Contest Page: Lalit Baisli</h4> <br>
-<h4>Discuss Page: Aman Sharma</h4> <br>
-<h4>Store Page: Lalit Baisli</h4> <br>
-
+<h4>Home Page: Nipun Madan</h4> 
+<h4>Explore Page: Aaqib Bashir Mir</h4> 
+<h4>Problems Page: Kaveri Chougule and Shazil</h4> 
+<h4>Contest Page: Lalit Baisli</h4> 
+<h4>Discuss Page: Aman Sharma</h4> 
+<h4>Store Page: Lalit Baisli</h4> 
 <hr>
-
 # Navbar
 ![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/40e4fa10-39e4-45a4-8adf-5adc665ae375)
 # Section 1
