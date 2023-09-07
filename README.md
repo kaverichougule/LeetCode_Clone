@@ -41,5 +41,6 @@ Additionally, there's CSS styling provided for these elements, including a gradi
 ![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/a77d2e24-cf60-409d-ba40-ca3200aa5be0)
 The section code defines a section of a web page with interactive dropdown menus for filtering options related to lists, difficulty levels, status, and tags. It also includes a search bar and a settings button. The code is designed to create a user-friendly interface for selecting and filtering content on the web page.
 <br>
+<br>
 # Section 6
 ![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/1502a0d9-414a-42cf-be0b-a2b65242fea4)
