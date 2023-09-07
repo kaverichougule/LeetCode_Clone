@@ -14,18 +14,19 @@ Group Members and the task assigned: <br>
 # Section 1
 ![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/a0153af8-bf12-499b-b5f5-8d6f3aa749d7)
 This HTML and CSS code creates a webpage section with navigation buttons and three images displayed in a grid. The navigation buttons allow you to scroll through the images. The CSS styles define the layout, appearance, and behavior of these elements on the page.
-
+<br>
 <br>
 # Section 2
 ![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/853fabd1-2636-48c1-87df-f71e955e935f)
 Various classes define the styles for different elements within the section, such as K_studyplan, K_section2_items, and K_section2_inner_item.
 Styles include font sizes, colors, padding, margins, and transitions for hover effects.
 K_hr defines the style for a horizontal line (hr).
-
+<br>
 <br>
 # Section 3
 ![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/b14987d6-254e-4812-b4fc-98bb404dba39)
 This code represents a section of a webpage displaying categories or tags with associated numerical values. It uses flex containers and styling to arrange and format these elements on the page. Links can be added to each category or tag in the HTML for further functionality.
+<br>
 <br>
 # Section 4
 ![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/757a9300-da17-45cb-840d-bce9c4d868a1)
