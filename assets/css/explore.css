@@ -1,0 +1,940 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700');
+.A-main-container{
+    /* border: 2px red solid; */
+    box-sizing: border-box;
+    padding: 40px 10px 10px 120px;
+    /* overflow:hidden; */
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; 
+}
+.nipunnavbar{
+    height:50px;
+    width:100vw;
+    /* border:2px solid red; */
+    position:relative;
+    display:flex;
+    border-bottom: 2px solid #F2F2F2 ;
+    overflow-y: hidden;
+}
+.Nmain{
+    height:100%;
+    width:80%;
+    /* border:2px solid green; */
+    position: absolute;
+    z-index: 1;
+    display:flex;
+    margin-left:9rem;
+    /* border-bottom: 0.2px solid #737373; */
+}
+.Nlisttools{
+    height:100%;
+    width:50%;
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-y: hidden;
+}
+.Niconsofnavbar{
+    height:100%;
+    width:50%;
+    /* border:2px solid blue; */
+    display:flex;
+
+}
+.Nfirstlist{
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+li>a>img{
+    height:50px;
+    width: auto;
+    cursor: pointer;
+}
+ul>li{
+    list-style:none;
+    /* color:#737373; */
+    display:flex;
+    align-items: center;
+    /* font-size: medium; */
+    cursor: pointer;
+}
+.A-explore{
+    color: #030303;
+    font-weight: 600;
+    padding-bottom: 14px;
+    border-bottom-style: solid;
+    border-bottom-width: 7px;
+    width: fit-content;
+    
+   
+}
+.A-explore-list{
+    margin-top: 15px;
+    color:#f5f5f5;
+}
+.Nfirstlist li :hover{
+    color:#262626;
+}
+.Nfirstlist>li>a{
+    text-decoration: none;
+    color:#737373;
+    font-size: medium;
+    cursor: pointer;
+ }
+li>select{
+    border:none;
+    color:#737373
+}
+li>select>option{
+    padding-left: 0.7rem;
+}
+.Ninterview{
+    width:80px;
+}
+.Nstore{
+
+    color:#FFA42C;
+}
+.Niconsofnavbar{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    justify-content: end;
+    color:#737373
+    
+}
+.pre{
+    gap:1rem;
+    display:flex;
+    align-items: center;
+}
+.pre :hover{
+    background-color: rgb(251, 228, 192);
+    transition: 0.2s ease-in-out;
+}
+.Niconsofnavbar>a{
+    color:#737373
+}
+.Niconsbutton{
+    background-color: #FFF4E3;
+    border:none;
+    font-size: medium;
+    color:#FFA42C;
+    text-decoration: none;
+    height :30px;
+    width:80px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    font: italic;
+}
+
+.A-2top{
+    margin-top: 5px;
+    display: flex;
+    gap: 50rem;
+    /* border: 2px red solid; */
+}
+.A-top-head>p{
+    /* line-height: 4px; */
+    color:  #b5a9a9;
+    /* font-family: sans-serif; */
+    font-weight: 700;
+    font-size: 11px;
+}
+.A-2top>.A-left-top>h2{
+    text-transform: capitalize;
+    color: #545151;
+    font-size: 25px; 
+    font-weight: 600; 
+}
+.A-2top>.A-right-top>.material-icons{
+    font-weight: bold;
+    color:#e0d7d7;
+    gap: 5px;
+    /* border:2px blue solid; */
+}
+.A-right-top{
+    position: relative;
+    gap:5rem
+  
+
+}
+.A-right-top>p{
+    background-color: #716e6e;
+    /* position: absolute; */
+    left:0;
+    /* display: none; */
+}
+
+.A-2top>.A-right-top>.material-icons:hover{
+    color: rgb(0, 106, 255);
+}
+.A-body-heading{
+    display: flex;
+    flex-direction:row;
+    margin-top: 30px;
+    align-items: center;
+    /* border:2px blue solid; */
+}
+.A-body-heading>.A-icon-div>.material-icons{
+    color: #aba5a5;
+    font-size: 12px;
+    /* font-weight: 20rem; */
+}
+.A-body-heading>.A-text-div{
+    display: flex;
+    font-size:12px;
+    font-weight: bold;
+    color: #bcb9b9;
+}
+.A-hero-bodypart{
+    height: 250px;
+    width: 230px;
+    /* border: cyan solid 2px; */
+    margin-top: 8px;
+    box-shadow: 0 0 8px rgba(178, 169, 169, 0.3);
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    min-width: 245px;
+}
+.A-hero-bodypart>.A-card-upper-div{
+    background-image: url(	https://assets.leetcode.com/explore/cards/cheatsheets/img-1674082113.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+
+}
+.A-hero-bodypart:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.A-play-button>i{
+   padding: 15px 15px;
+   background-color: #ffffff;
+   border-radius: 50%;
+   position: absolute;
+   left: 160px;
+   top:145px;
+   border: 4px #f2f0f0 solid;
+   cursor:pointer;
+}
+.A-hero-bodypart>.A-play-button:hover{
+   color: cyan;
+   box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  
+}
+.A-card-upper-div>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div>h3{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight:600; 
+    text-shadow: 0 0 10px rgba(108, 103, 103, 0.7);
+}
+.A-lower-text-12{
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 80px;
+    padding: 4px 15px;
+    font-weight: 650;
+    font-size: larger;
+    color: #4c4a4a;
+   
+}
+.A-lower-text{
+    font-size: small;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    font-weight: 100; 
+    text-shadow: 0 0 20px rgba(208, 206, 206, 0.5);
+    padding-left: 10px;
+    gap: 50px;
+    color: #535050;
+}
+.A-middle-body{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 60px;
+    gap: 55rem;
+    /* border:2px blue solid; */
+}
+.A-middle-body>.A-feature{
+    font-size: 25px;
+    font-weight: 500;
+    color: #626060;
+}
+.A-middle-body>.A-button>button{
+    color: rgba(0, 64, 255, 0.826);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 60px;
+    height: 29px;
+    background-color: #ffffff;
+    border: #f1eaea;
+    cursor:pointer;
+    box-shadow: 0 0 20px rgba(221, 214, 214, 0.7);
+}
+.A-middle-body>.A-button>button:hover{
+    background-color: #ede7e7;
+    box-shadow:  0 0 20px rgba(186, 183, 183, 0.7);
+}
+.A-middle-cards{
+    display: flex;
+    /* scroll-margin: 100%; */
+    /* overflow-x:scroll; */
+    margin-top: 15px;
+    gap: 15px;
+    padding-top: 20px;  
+    padding-bottom: 14px; 
+    overflow-x:scroll; 
+    /* border: brown solid 2px; */
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.A-middle-body-2nd{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 60px;
+    gap: 55rem;
+    /* border:2px blue solid; */
+}
+.A-middle-body-2nd>.A-interview{
+    font-size: 25px;
+    font-weight: 500;
+    color: #626060;
+}
+.A-middle-body-2nd>.A-button>button{
+    color: rgba(0, 64, 255, 0.826);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 60px;
+    height: 29px;
+    cursor:pointer;
+    background-color: #ffffff;
+    border: #f1eaea;
+    box-shadow: 0 0 20px rgba(221, 214, 214, 0.7);
+}
+.A-middle-body-2nd>.A-button>button:hover{
+    background-color: #ede7e7;
+    box-shadow:  0 0 20px rgba(186, 183, 183, 0.7);
+}
+.A-hero-bodypart>.A-card-upper-div1{
+    background-image: url(	https://assets.leetcode.com/explore/cards/introduction-to-the-beginners-guide/img-1652222288.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    /* position: relative; */
+
+}
+
+.A-card-upper-div1>p{
+    font-size:25px;
+    font-weight: 600;
+    padding:0 6px; 
+    margin-top: 20px; 
+    margin-left: 4px; 
+    text-shadow: 0 0 10px rgba(108, 103, 103, 0.7);
+}
+.A-hero-bodypart>.A-card-upper-div2{
+    background-image: url(https://assets.leetcode.com/explore/cards/leetcodes-interview-crash-course-data-structures-and-algorithms/img-1663091244.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div2>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow: 0 0 10px rgba(108, 103, 103, 0.7);
+}
+.A-card-upper-div2>h5{
+    padding:0 6px;  
+    font-size:25px;
+    font-weight: 600; 
+    text-shadow: 0 0 10px rgba(108, 103, 103, 0.7);
+}
+.A-hero-bodypart>.A-card-upper-div3{
+    background-image: url(https://assets.leetcode.com/explore/cards/top-151-interview-questions/img);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div3>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div3>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-hero-bodypart>.A-card-upper-div4{
+    background-image: url(https://assets.leetcode.com/explore/cards/dynamic-programming/img.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div4>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div4>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-hero-bodypart>.A-card-upper-div5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0cWJN5bGieZ7BRQFYRqTXpSikGqRxAwLs0yy7kEJVQg&s);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div5>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div5>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-hero-bodypart>.A-card-upper-div6{
+    background-image: url(https://assets.leetcode.com/explore/cards/google/img);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div6>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div6>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-card-upper-div6{
+    position: relative;
+}
+.A-card-upper-div6 button{
+    background-color:rgb(255, 166, 0);
+    border-radius: 30px;
+    border: orange;
+    color: white;
+    width:4rem;
+    /* height: -3rem; */
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.A-hero-bodypart>.A-card-upper-div7{
+    background-image: url(https://assets.leetcode.com/explore/cards/sql-language/img-1657328656.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div7>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 20px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div7>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-hero-bodypart>.A-card-upper-div8{
+    background-image: url(https://assets.leetcode.com/explore/cards/graph/img.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div8>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div8>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-hero-bodypart>.A-card-upper-div9{
+    background-image: url(https://assets.leetcode.com/explore/cards/heap/img.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div9>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div9>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-hero-bodypart>.A-card-upper-div10{
+    background-image: url(https://assets.leetcode.com/explore/cards/recursion-i/img);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div10>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div10>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-hero-bodypart>.A-card-upper-div11{
+    background-image: url(https://assets.leetcode.com/explore/cards/machine-learning-101/img);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-div11>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-div11>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-middle2-cards-div{
+    display: flex;
+    /* scroll-margin: 100%; */
+    /* overflow-x:scroll; */
+    margin-top: 15px;
+    gap: 15px;
+    padding-top: 20px;  
+    padding-bottom: 15px;
+}
+.A-middle2-cards-div:hover{
+    overflow-x: scroll;
+}
+
+.A-hero-bodypart>.A-card-upper-diva{
+    background-image: url(https://assets.leetcode.com/explore/cards/system-design-for-interviews-and-beyond/img-1676672273.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-diva>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-diva>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-hero-bodypart>.A-card-upper-divb{
+    background-image: url(	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5c53bNTl5gQ219Dfo7wCg-wMkkweEGOTs1A&usqp=CAU);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-divb>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-divb>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-card-upper-divb button{
+    background-color:rgb(255, 166, 0);
+    border-radius: 30px;
+    border: orange;
+    color: white;
+    width:4rem;
+    /* height: -3rem; */
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.A-hero-bodypart>.A-card-upper-divc{
+    background-image: url(	https://assets.leetcode.com/explore/cards/microsoft/img);
+    width:100%;
+    height:70%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-divc>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-divc>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+
+.A-card-upper-divc button{
+    background-color:rgb(255, 166, 0);
+    border-radius: 30px;
+    border: orange;
+    color: white;
+    width:4rem;
+    /* height: -3rem; */
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.A-hero-bodypart>.A-card-upper-divd{
+    background-image: url(		https://assets.leetcode.com/explore/cards/amazon/img);
+    width:100%;
+    height:70%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-divd>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-divd>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+
+.A-card-upper-divd button{
+    background-color:rgb(255, 166, 0);
+    border-radius: 30px;
+    border: orange;
+    color: white;
+    width:4rem;
+    /* height: -3rem; */
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.A-hero-bodypart>.A-card-upper-dive{
+    background-image: url(			https://assets.leetcode.com/explore/cards/apple/img);
+    width:100%;
+    height:70%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-dive>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-dive>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+
+.A-card-upper-dive button{
+    background-color:rgb(255, 166, 0);
+    border-radius: 30px;
+    border: orange;
+    color: white;
+    width:4rem;
+    /* height: -3rem; */
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.A-last-div-title>.A-learn{
+    font-size: 25px;
+    font-weight: 500;
+    color: #626060;
+}
+.A-last-div-title>.A-button>button{
+    color: rgba(0, 64, 255, 0.826);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 60px;
+    height: 29px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: #f1eaea;
+    box-shadow: 0 0 20px rgba(221, 214, 214, 0.7);
+}
+.A-last-div-title{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 60px;
+    gap: 55rem;
+    cursor: pointer;
+}
+.A-last-cards-div{
+    display: flex;
+    /* scroll-margin: 100%; */
+    /* overflow-x:scroll; */
+    margin-top: 15px;
+    gap: 15px;
+    padding-top: 20px;  
+    padding-bottom: 14px; 
+}
+.A-last-cards-div:hover{
+    overflow-x: scroll;
+}
+.A-last-div-title>.A-button>button:hover{
+    background-color: #ede7e7;
+    box-shadow:  0 0 20px rgba(251, 250, 250, 0.7);
+    
+}
+.A-hero-bodypart>.A-card-upper-divA{
+    background-image: url(	https://assets.leetcode.com/explore/cards/bit-manipulation-and-math/img-1648770297.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-divA>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-divA>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.A-hero-bodypart>.A-card-upper-divB{
+    background-image: url(	https://assets.leetcode.com/explore/cards/sorting/img-1658261025.png);
+    width:100%;
+    height:75%;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    /* position: relative; */
+    background-size: cover;
+}
+.A-card-upper-divB>p{
+    font-size: small;
+    padding: 8px;
+    font-weight: bold;
+    color: #e7e2e2;
+    text-shadow:  0 0 15px rgba(168, 159, 159, 0.5);
+}
+.A-card-upper-divB>h5{
+    font-size:25px;
+    padding:0 6px;  
+    font-weight: 600; 
+}
+.bottom{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.inside{
+    height: 100%;   
+    width: 95%;
+    border-top: 1px solid  #EEEEEE  ;
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.flag_america{
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 100%;
+}
+.flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 100%;
+    width: 10%;
+}
+.inside ul{
+    gap: 1rem;
+}
+
+.copy{
+    color: #757575;
+    font-size: small;
+}
+
+.list_item{
+    color: 424242;
+    font-size: small;
+}
+.list_item1{
+    font-size: small;
+    display: flex;
+}
+.list_item:hover{
+    color: black;
+    text-decoration: underline;
+}
+.list_item1:hover{
+    text-decoration: underline #1890FD;;
+}

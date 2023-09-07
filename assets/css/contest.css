@@ -1,0 +1,833 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F7F8FA;
+}
+.nipunnavbar{
+    height:50px;
+    width:100%;
+    /* border:2px solid red; */
+    position:relative;
+    display:flex;
+    justify-content: center;
+    border-bottom: 2px solid #F2F2F2 ;
+}
+.Nmain{
+    height:100%;
+    width:86%;
+    /* border:2px solid green; */
+    position: absolute;
+    z-index: 1;
+    display:flex;
+    /* border-bottom: 0.2px solid #737373; */
+}
+.Nlisttools{
+    height:100%;
+    width:60%;
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Niconsofnavbar{
+    height:100%;
+    width:50%;
+    /* border:2px solid blue; */
+    display:flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.Nfirstlist{
+    display:flex;
+    align-items: center;
+    gap: 1.2rem;
+
+
+}
+li>a>img{
+    height:50px;
+    width: auto;
+    cursor: pointer;
+}
+ul>li{
+    list-style:none;
+    /* color:#737373; */
+    display:flex;
+    align-items: center;
+    /* font-size: medium; */
+    cursor: pointer;
+}
+.Nfirstlist li :hover{
+    color:#262626;
+}
+.Nfirstlist>li>a{
+    text-decoration: none;
+    color:#737373;
+    font-size: medium;
+    cursor: pointer;
+}
+.l_box{
+    height: 25px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.l_box:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+li>select{
+    border:none;
+    color:#737373
+}
+li>select>option{
+    padding-left: 0.7rem;
+}
+.Ninterview{
+    font-size: medium;
+    height: 35px;
+    width:90px;
+    /* border: 1px solid blueviolet; */
+    background-color: #F7F8FA;
+}
+.Nstore{
+
+    color:#FFA42C;
+}
+.Niconsofnavbar{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    justify-content: end;
+    color:#737373
+    
+}
+.pre{
+    gap:1rem;
+    display:flex;
+    align-items: center;
+}
+.pre :hover{
+    background-color: rgb(251, 228, 192);
+    transition: 0.2s ease-in-out;
+}
+.Niconsofnavbar>a{
+    color:#737373
+}
+.Niconsbutton{
+    background-color: #FFF4E3;
+    border:none;
+    font-size: medium;
+    color:#FFA42C;
+    text-decoration: none;
+    height :30px;
+    width:80px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    font: italic;
+}
+.leetcode_contest{
+    height: 40rem;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.leetcode_banner{
+    height: 25rem;
+    width: 100%;
+    /* border: 2px solid pink; */
+    background-image: url("../images/contest_image.png");
+    object-fit: cover;
+    background-size: cover; 
+    background-position: center; 
+    background-size: 75% 100%;
+    position: absolute;
+}
+.weekly_contest{
+    height: 17rem;
+    width: 100%;
+    /* border: 2px solid green; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    top: 56%;
+}
+.weeklycontest_361{
+    height: 16rem;
+    width: 29%;
+    /* border: 2px solid black; */
+    border-radius: 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+.Biweeklycontest_113{
+    height: 16rem;
+    width: 29%;
+    /* border: 2px solid black;  */
+    border-radius: 5%;
+    background-color: white;
+}
+.img_1{
+    height: 70%;
+    width: 100%;
+    background-image: url(https://leetcode.com/_next/static/images/weekly-default-553ede7bcc8e1b4a44c28a9e4a32068c.png);
+    background-size: cover; 
+    background-position: center; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.calender_icon{
+    height: 50px;
+    width: 50px;
+    margin-left: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.materials{
+    height: 33px;
+    width: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: hsla(0, 0%, 0%, 0.3);
+
+}
+.countdown{
+    display: flex;
+    height: 4vh;
+    width: 14vw;
+    margin-left: 10px;
+    margin-top: 100px;
+    color: white;
+}
+.des{
+    padding: 10px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+.img_2{
+    height: 70%;
+    width: 100%;
+    background-image: url(https://leetcode.com/_next/static/images/biweekly-default-f5a8fc3be85b6c9175207fd8fd855d47.png);
+    background-size: cover; 
+    background-position: center; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#calender{
+    color: white;
+}
+.weekly_heading{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #2A2A2A;
+}
+.date_time{
+    font-size: small;
+}
+#date_date{
+    font-size: larger;
+}
+.featuredcontest{
+    height: 53vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.feature_heading{
+    height: 50vh;
+    width: 80%;
+    /* border: 2px solid purple; */
+    margin-top: 1%;
+}
+.heart_sponsor{
+    color: #007AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 14px;
+}
+.contests-all-3{
+    height: 16rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+.contests{
+    height: 16rem;
+    width: 32%;
+    /* border: 2px solid violet; */
+}
+.image-contest-1{
+    height: 76%;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-image: url(https://assets.leetcode.com/contest/weekly-contest-291/card_img_1654267951.png);
+    object-fit: cover;
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 10px;
+}
+.description{
+    padding: 2%;
+}
+.date{
+    color: gray;
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+}
+#may-date{
+    color: lightgrey;
+}
+.image-contest-2{
+    height: 76%;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-image: url(https://assets.leetcode.com/contest/weekly-contest-290/card_img_1654267980.png);
+    object-fit: cover;
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 10px;
+}
+.image-contest-3{
+    height: 76%;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-image: url(https://assets.leetcode.com/contest/biweekly-contest-85/card_img_1659801683.png);
+    object-fit: cover;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px; 
+}
+.heading_contest{
+    height: 3rem;
+    width: 100%;
+    /* border: 2px solid maroon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 14px;
+}
+.p_featured{
+    font-size: larger;
+    font-weight: 500;
+}
+.lower_headings{
+    font-size: larger;
+    font-weight: 500;
+}
+.major{
+    height: 66rem;
+    width: 100%;
+    /* border: 2px solid violet; */
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #F7F8FA;
+}
+.left_side{
+    height: 61rem;
+    width: 51.5%;
+    /* border: 2px solid blueviolet; */
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 10px;
+    background-color: white;
+}
+.col_1{
+    height: 3rem;
+    width: 100%;
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    padding-right: 2%;
+}
+.past_contents{
+    height: 3rem;
+    width: 40%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2%;
+    padding: 1px;
+}
+/* #past-1{
+    color: black;
+} */
+.past{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.5vh;
+    width: 50%;
+    /* border: 2px solid pink; */
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.03);
+    font-weight: 500;
+}
+.my_contests{
+    color: grey;
+    font-weight: 500;
+}
+.row_1{
+    height: 5rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.row_left{
+    height: 5rem;
+    width: 25%;
+    /* border: 2px solid maroon; */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.image_container_1{
+    height: 85%;
+    width: 78%;
+    background-image: url(https://leetcode.com/_next/static/images/weekly-default-553ede7bcc8e1b4a44c28a9e4a32068c.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.row_middle{
+    height: 5rem;
+    width: 60%;
+    /* border: 2px solid maroon; */
+    display: flex;
+    align-items: center;
+}
+.announcements{
+    height: 80%;
+    width: 70%;
+    /* border: 1px solid green; */
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+}
+.row_right{
+    height: 5rem;
+    width: 16%;
+    /* border: 2px solid maroon; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height: 40%;
+    width: 60%;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0,0.05);
+}
+.image_container_2{
+    height: 85%;
+    width: 78%;
+    background-image: url(https://leetcode.com/_next/static/images/biweekly-default-f5a8fc3be85b6c9175207fd8fd855d47.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.image_container_3{
+    height: 85%;
+    width: 78%;
+    background-image: url(https://assets.leetcode.com/contest/weekly-contest-360/card_img_1692504338.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.heading_weekly_contest{
+    font-weight: 500;
+    font-size: medium;
+    color: #615C61;
+}
+.datewithtime{
+    font-size: smaller;
+    color: gray;
+}
+.my_contests-2{
+    font-weight: 400;
+    font-size: smaller;
+    color: grey;
+}
+.nums{
+    height: 3rem;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5px;
+    padding-right: 3%;
+    border: 5px;
+}
+.box{
+    height: 1.5rem;
+    width: 1.5rem;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #595959;
+}
+.right_side{
+    height: 61rem;
+    width: 25.5%;
+    /* border: 2px solid black; */
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 10px;
+    background-color: white;
+}
+.top_head{
+    height: 3rem;
+    width: 100%;
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+}
+.global_ranking{
+    height: 90%;
+    width: 60%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+.right-row-1{
+    height: 5rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.right-row-left{
+    height: 100%;
+    width: 15%;
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-row-middle{
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-row-right{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mentions{
+    height: 90%;
+    width: 100%;
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.7;padding-left: 4%;
+}
+.botm{
+    height: 3rem;
+    width: 100%;
+    /* border: 2px solid blueviolet; */
+    border-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_logo{
+    height: 70%;
+    width: 70%;
+    border: 2px solid goldenrod;
+    background-image: url(https://assets.leetcode.com/users/neal_wu/avatar_1574529913.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+.img_logo-2{
+    height: 70%;
+    width: 70%;
+    border: 2px solid silver;
+    background-image: url(https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/users/heltion/avatar_1587213058.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+.img_logo-3{
+    height: 70%;
+    width: 70%;
+    border: 2px solid goldenrod;
+    background-image: url(https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.img_logo-4{
+    height: 70%;
+    width: 70%;
+    background-image: url(https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/users/johnkram/avatar_1593402741.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.img_logo-5{
+    height: 70%;
+    width: 70%;
+    background-image: url(https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.img_logo-6{
+    height: 70%;
+    width: 70%;
+    background-image: url(https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.img_logo-7{
+    height: 70%;
+    width: 70%;
+    background-image: url(https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.img_logo-8{
+    height: 70%;
+    width: 70%;
+    background-image: url(https://assets.leetcode.com/users/hank55663/avatar_1586006495.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.img_logo-9{
+    height: 70%;
+    width: 70%;
+    background-image: url(https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.img_logo-10{
+    height: 70%;
+    width: 70%;
+    background-image: url(https://assets.leetcode.com/users/rohingarg123/avatar_1584377597.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.img_logo-11{
+    height: 70%;
+    width: 70%;
+    background-image: url(https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.bottom{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.inside{
+    height: 100%;   
+    width: 95%;
+    border-top: 1px solid #EEEEEE ;
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.flag_america{
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 100%;
+}
+.flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 100%;
+    width: 10%;
+}
+.inside ul{
+    gap: 1rem;
+}
+
+.copy{
+    color: #757575;
+    font-size: small;
+}
+
+.list_item{
+    color: 424242;
+    font-size: small;
+}
+.list_item1{
+    font-size: small;
+    display: flex;
+}
+.list_item:hover{
+    color: black;
+}
+.list_item:hover{
+    color: black;
+    text-decoration: underline;
+}
+.list_item1:hover{
+    text-decoration: underline #1890FD;;
+}
+.points_box:hover{
+    transform-style: easy;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.materials:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.img_1:hover{
+    cursor: pointer;
+}
+.img_2:hover{
+    cursor: pointer;
+}
+.contests:hover{
+    cursor:pointer;
+    color: #1082FF;
+}
+#past-1{
+    color: black;
+}
+.my_contests{
+    color: grey;
+}
+.my_contests:hover{
+    color: black;
+    cursor: pointer;
+}
+.heart_sponsor:hover{
+    cursor: pointer;
+}
+.image_container_1:hover{
+    cursor: pointer;
+}
+.image_container_2:hover{
+    cursor: pointer;
+}
+.image_container_3:hover{
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.right-row-1:hover{
+    cursor: pointer;
+}
+.name{
+    color: goldenrod;
+}
+.name_2{
+    color: grey;
+}
+a:hover{
+    color: #1082FF;
+}
+#view_more{
+    color: #007AFF;
+    font-size: small;
+}
+#view_more:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.weekly_heading:hover{
+    color: #007AFF;
+    cursor: pointer;
+}
+.past:hover{
+    cursor: pointer;
+}
+.heading_weekly_contest:hover{
+    color: #007AFF;
+    cursor: pointer;
+}
+.golden_wrds{
+    color: #FFA143;
+    font-weight: 400;
+}
+.grey_wrds{
+    color: #5C5C61;
+    font-weight: 400;
+}
+.golden_wrds:hover{
+    color: #528FFF;
+}
+.grey_wrds:hover{
+    color: #528FFF;
+}
