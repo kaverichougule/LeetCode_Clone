@@ -1,8 +1,6 @@
 <h2>LeetCode</h2>
 <h4>Hosted Link: https://kaverichougule.github.io/LeetCode_Clone/</h4>
-<br>
 <h4>Repository Link: https://github.com/kaverichougule/LeetCode_Clone</h4>
-<br>
 Group Members and the task assigned: <br>
 <h4>Home Page: Nipun Madan</h4> <br>
 <h4>Explore Page: Aaqib Bashir Mir</h4> <br>
@@ -21,7 +19,7 @@ This HTML and CSS code creates a webpage section with navigation buttons and thr
 
 <br>
 # Section 2
-![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/13653130-817a-4d10-bb05-0111e9197e94)
+![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/853fabd1-2636-48c1-87df-f71e955e935f)
 Various classes define the styles for different elements within the section, such as K_studyplan, K_section2_items, and K_section2_inner_item.
 Styles include font sizes, colors, padding, margins, and transitions for hover effects.
 K_hr defines the style for a horizontal line (hr).
