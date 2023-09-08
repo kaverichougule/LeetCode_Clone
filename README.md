@@ -10,7 +10,8 @@ Group Members and the task assigned: <br>
 <h4>Store Page: Lalit Baisli</h4> 
 <hr>
 #Navbar <br>
-![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/43c3cd02-3b36-4f69-b3ed-3b7de581cc20)
+![image](https://github.com/kaverichougule/LeetCode_Clone/assets/101037685/40fc42ee-ab47-44bc-a9d6-ac3f76734fac)
+
 <br> 
 <br>
 #Section 1 <br>
